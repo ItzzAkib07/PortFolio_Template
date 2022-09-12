@@ -1,0 +1,190 @@
+/* CSS Reset  */
+
+ *{
+    margin: 0;
+    padding: 0;
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(39, 38, 38);
+}
+
+/* Navigation */
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 20px;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+    text-decoration: none;
+} 
+
+/* Home section */
+
+#home{ 
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.wrapper{
+    margin: 0%;
+}
+
+.dynamic-txts {
+    margin-top: 30px;
+}
+
+.more_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.more_btn a{
+    color:rgb(209, 250, 255);
+    text-decoration: none;
+}
+
+.logo {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo img{
+    height: 230px;
+    border: 2px solid;
+    opacity: 0.6;
+}
+
+.para a{
+    text-decoration: none;
+}
+
+/* about section  */
+
+#about-container{
+    /* background-color: red; */
+    margin-top: 30px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    height: fit-content;
+    width: auto;
+}
+
+.about{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 0;    
+}
+
+
+
+.info{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.about .info p {
+    text-align: start;
+}
+
+
+
+.skills {
+    margin-top: 10px;
+}
+
+.skill{
+    margin-top: 0px;
+}
+
+.skill ul li{
+    margin-top: 10px;
+}
+
+.skill h2{
+    text-align: center;
+}
+
+/* work section */
+
+#work-container{
+    height: 40vh;
+    width: auto;
+    margin-top: 100px;
+    /* background-color: purple; */
+}
+
+/* #work{
+} */
+
+/* contact section */
+
+#contact-container{
+    height: 370px; 
+    width: auto;
+    padding: 3px 5px;
+    /* background-color: blueviolet; */
+}
+
+
+
+/* .form{
+
+} */
+
+/* .myForm{
+    background-color: palevioletred;
+} */
+
+/* .myInput{
+
+} */
+
+/* .btn{
+
+} */
+
+
+/* social section */
+
+ /* .social-sec{
+
+} */
+
+
+/* #social-head{
+
+} */
+
+
+/* footer section */
+
+/* footer{
+   
+} */
+
+
+
+
+
+
+
+
+
